@@ -3,3 +3,4 @@
 ### Completed Tasks
 
 1. Reverse an Array
+2. Find the maximum and minimum element in an array
