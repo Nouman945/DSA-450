@@ -4,3 +4,4 @@
 
 1. Reverse an Array
 2. Find the maximum and minimum element in an array
+3. Find the Kth Smallest element of an array
