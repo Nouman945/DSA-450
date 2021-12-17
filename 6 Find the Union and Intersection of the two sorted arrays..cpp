@@ -6,7 +6,8 @@ int main(){
 	//Finding the same elements in arrays
 	int un=0,un1=0;
 	for(int i=0;i<sizeof(a)/sizeof(a[0]);i++){
-//		cout << a[i];
+		// Uncomment this line to print the Elements 
+		// cout << a[i];
 		un++;
 	}
 	for(int i=0;i<=2;i++){
@@ -18,7 +19,8 @@ int main(){
 			}
 		}
 		if(flag!=1){
-//			cout << b[i];
+			//Uncomment this line to print the Elements
+			//cout << b[i];
 			un1++;
 		}
 	}
