@@ -1,18 +1,24 @@
 #include<iostream>
 using namespace std;
-int main(){
-	int arr[5]={20,1,4,11,6};
-	int max=arr[0];
-	int min=arr[0];
+int minmax(int a[],int n){
+	int min=a[0];
+	int max=a[0];
 	
-	for(int i=1;i<5;i++){
-		if(arr[i]>max){
-			max=arr[i];
+ 	for(int i=0;i<=n;i++){
+		if(a[i]>max){
+			
+			max=a[i];
 		}
-		else if(arr[i]<min){
-			min = arr[i];
+		else if(a[i]<min){
+			min=a[i];
 		}
 	}
-	cout << max << endl;
-	cout << min;
+	cout << "MAX\t" << max << "\n";
+	cout << "MIN\t" << min << "\n";
+}
+
+int main(){
+	int a[]={1,2,3,4,5,6,7,8,9};
+	int n=sizeof(a)/sizeof(a[0])-1;
+	minmax(a,n);
 }
